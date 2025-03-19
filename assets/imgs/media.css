@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .navbar-item ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-item ul li {
+        margin: 10px 0;
+    }
+    .new-games {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boy {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        height: auto;
+        padding: 20px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .word h1 {
+        font-size: 36px;
+        width: auto;
+    }
+    .game {
+        text-align: center;
+    }
+    .boy {
+        width: 100%;
+        height: auto;
+    }
+    .free, .tv {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .word h1 {
+        font-size: 28px;
+    }
+    .navbar-item ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-item ul li {
+        font-size: 18px;
+    }
+    .Here {
+        width: 100%;
+        font-size: 18px;
+    }
+}
